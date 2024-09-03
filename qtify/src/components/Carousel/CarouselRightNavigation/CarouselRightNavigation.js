@@ -17,7 +17,7 @@ const CarouselRightNavigation = () => {
 	}, []);
 
 	return (
-		<div className={styles.rightNavigation}>
+		<div className={styles.rightNavigation}> 
 			{!isEnd && <RightArrow onClick={() => swiper.slideNext()} />}
 		</div>
 	);
